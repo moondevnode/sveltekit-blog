@@ -45,3 +45,12 @@ Forced re-optimization of dependencies
   ➜  press h to show help
 ```
 
+## Git config
+
+```bash
+git config user.name "<__NAME__>"
+git config user.email "<__EMAIL__>"
+git config url."https://<__TOKEN__>@github.com/moondevnode".insteadOf "https://github.com/moondevnode"
+git remote set-url origin https://moondevnode@github.com/moondevnode/sveltekit-blog.git
+```
+
