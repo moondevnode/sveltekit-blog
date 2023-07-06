@@ -181,3 +181,13 @@ pnpm i remark-unwrap-images remark-toc rehype-slug
 > `src/routes/toggle.svelte`
 
 > `src/routes/header.svelte`
+
+
+## Page Transitions
+
+> `src/routes/layout.ts`
+
+> `src/routes/transition.svelte`
+
+> `src/routes/layout.svelte`
+
