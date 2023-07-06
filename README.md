@@ -139,3 +139,34 @@ pnpm i shiki
 > `/src/posts/counter.svelte`
 
 > `/src/posts/second-post.md`
+
+
+## Using Markdown Plugins
+- AST(abstract syntax trees)
+
+### References
+
+> [Abstract syntax tree](https://www.wikiwand.com/en/Abstract_syntax_tree)
+
+> [How to Modify Nodes in an Abstract Syntax Tree](https://css-tricks.com/how-to-modify-nodes-in-an-abstract-syntax-tree/)
+
+> [rehype](https://github.com/rehypejs/rehype)
+
+> [remark](https://github.com/remarkjs)
+
+> [remarkPlugins / rehypePlugins](https://mdsvex.pngwn.io/docs/#remarkplugins--rehypeplugins)
+
+> [remark-preset-lint](https://github.com/Dup4/remark-preset-lint)
+
+
+### Install Markdown Plugins
+
+```sh
+pnpm i remark-unwrap-images remark-toc rehype-slug
+```
+
+### Edit
+
+> `/svelte.config.js`
+
+> `/src/posts/second-post.md`
