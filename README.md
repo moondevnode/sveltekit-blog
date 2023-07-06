@@ -202,3 +202,13 @@ pnpm i remark-unwrap-images remark-toc rehype-slug
 # check
 localhost:5173/rss.xml
 ```
+
+
+## Custom Error Page
+
+> `src/error.svelte`
+
+```sh
+# check
+localhost:5173/banana
+```
