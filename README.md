@@ -191,3 +191,14 @@ pnpm i remark-unwrap-images remark-toc rehype-slug
 
 > `src/routes/layout.svelte`
 
+
+## RSS Feed
+
+> `src/routes/rss.xml/+server.ts`
+
+> `src/app.html`
+
+```sh
+# check
+localhost:5173/rss.xml
+```
