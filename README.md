@@ -170,3 +170,14 @@ pnpm i remark-unwrap-images remark-toc rehype-slug
 > `/svelte.config.js`
 
 > `/src/posts/second-post.md`
+
+
+## Light And Dark Mode Toggle
+
+> `/src/app.html`
+
+> `src/lib/theme.ts`
+
+> `src/routes/toggle.svelte`
+
+> `src/routes/header.svelte`
