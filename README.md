@@ -54,3 +54,33 @@ git config url."https://<__TOKEN__>@github.com/moondevnode".insteadOf "https://g
 git remote set-url origin https://moondevnode@github.com/moondevnode/sveltekit-blog.git
 ```
 
+## Install Modules
+
+```sh
+# setup base format(lint, prettier, sevelte.config.js, ...)
+pnpm run format
+
+# npm install
+pnpm i open-props lucide-svelte @fontsource/manrope @fontsource/jetbrains-mono
+```
+
+## Edit
+
+### Change Favicon
+> [Favicon](https://fav.farm/)
+
+> `/src/app.html`
+
+### Set Config(Blog title/description/url)
+
+> `/src/lib/config.ts`
+
+### Set Layout
+
+> `/src/routes/+layout.svelte`
+
+> `/src/routes/header.svelte`
+
+> `/src/routes/footer.svelte`
+
+> `/src/app.css`
