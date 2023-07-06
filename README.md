@@ -84,3 +84,35 @@ pnpm i open-props lucide-svelte @fontsource/manrope @fontsource/jetbrains-mono
 > `/src/routes/footer.svelte`
 
 > `/src/app.css`
+
+
+## Set Markdown(mdsvex)
+
+> [mdsvex](https://mdsvex.pngwn.io/docs)
+
+```sh
+npm i -D mdsvex
+```
+
+> `/src/posts/first-post.md`
+
+> `/src/posts/second-post.md`
+
+> `/src/routes/api/posts/+server.ts`
+
+
+```sh
+# check
+localhost:5173/api/posts
+```
+
+> `/src/routes/[slug]/+page.svelte`
+
+> `/src/routes/[slug]/+page.ts`
+
+```sh
+# check
+localhost:5173/first-post
+
+localhost:5173/second-post
+```
