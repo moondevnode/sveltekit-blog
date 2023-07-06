@@ -94,6 +94,8 @@ pnpm i open-props lucide-svelte @fontsource/manrope @fontsource/jetbrains-mono
 npm i -D mdsvex
 ```
 
+> `/svelte.config.js`
+
 > `/src/posts/first-post.md`
 
 > `/src/posts/second-post.md`
@@ -116,3 +118,24 @@ localhost:5173/first-post
 
 localhost:5173/second-post
 ```
+
+
+## Set Code Highlighter(Shiki)
+
+> [shiki](https://github.com/shikijs/shiki)
+
+> [SHIKI-TWOSLASH](https://shikijs.github.io/twoslash/)
+
+### Install shiki
+
+```sh
+pnpm i shiki
+```
+
+### Edit
+
+> `/svelte.config.js`
+
+> `/src/posts/counter.svelte`
+
+> `/src/posts/second-post.md`
