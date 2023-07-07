@@ -6,6 +6,7 @@ node_modules
 /package
 static/
 dist/
+.vercel/
 
 # config
 vite.config.js.timestamp-*
