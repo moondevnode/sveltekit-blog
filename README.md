@@ -1,47 +1,53 @@
 # sveltekit-blog
 Svelekit Blog
 
-# Installation
 
-```bash
-# Create Github Remote Repository
-> github -u moondevnode -n sveltekit-blog -d "Svelekit Blog"
+## Post
 
-# Git Clone(Remote to Local)
-> git clone https://github.com/moondevnode/sveltekit-blog.git
+> [Svelte Components Using Custom Markdown Renderers - Weekly Svelte](https://www.youtube.com/watch?v=ZiEROAqobwM)
+- [Custom Renderer with interactivity](https://stackblitz.com/edit/sveltejs-kit-template-default-jwtb9f)
+- [Custom Renderer & Tokenizer Example](https://stackblitz.com/edit/sveltejs-kit-template-default-jz5nyu)
 
-> cd sveltekit-blog
 
-# Create Svelte Project
-> pnpm create svelte .
+## Github
 
-◇  Where should we create your project?
-│    (hit Enter to use current directory)
-│
-◇  Directory not empty. Continue?
-│  Yes
-│
-◇  Which Svelte app template?
-│  Skeleton project
-│
-◇  Add type checking with TypeScript?
-│  Yes, using TypeScript syntax
-│
-◇  Select additional options (use arrow keys/space bar)
-│  Add ESLint for code linting, Add Prettier for code formatting
+```sh
+# goto base commit(setup sveltekit)
+git checkout 6fd3f23d2d684ba7127ae822947323b6ddae4fb6
 
-# npm install
-> npm i
+# create branch
+git branch svelte-markdown
 
-# check in browser
-> yarn dev --open
-
-Forced re-optimization of dependencies
-
-  VITE v4.4.0  ready in 1578 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h to show help
+# checkout
+git checkout svelte-markdown
 ```
 
+
+## Edit
+
+> `package.json`
+
+
+## Installation
+
+```sh
+# npm install
+npm i
+```
+
+
+## Edit
+
+> `src/routes/[slug]/+page.svelte`
+
+> `src/routes/[slug]/+page.ts`
+
+> `static/test-markdown.md`
+
+> `src/lib/markdown/renderer/Admonition.svelte`
+
+> `src/lib/markdown/renderer/Custom.svelte`
+
+> `src/lib/markdown/tokenizer/admonition.ts`
+
+> `src/lib/markdown/tokenizer/custom.ts`
