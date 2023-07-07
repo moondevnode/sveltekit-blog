@@ -5,5 +5,6 @@
   };
 </script>
 
-<!-- display the "post" field -->
-<h1>{data.post}</h1>
+<a href="/">Back</a>
+
+{@html data.post}
