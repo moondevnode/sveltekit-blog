@@ -1,7 +1,9 @@
 <script lang="ts">
   export let data: {
     slug: string;
+    post: string;
   };
 </script>
 
-<h1>{data.slug}</h1>
+<!-- display the "post" field -->
+<h1>{data.post}</h1>

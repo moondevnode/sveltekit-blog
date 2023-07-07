@@ -41,3 +41,18 @@ Forced re-optimization of dependencies
 # check
 http://localhost:5173/custom-blog-post-slug
 ```
+
+
+## Rendering the blog post
+
+> `src/routes/[slug]/+page.ts`
+
+> `src/routes/[slug]/+page.svelte`
+
+> `static/my-first-post.md`
+
+
+```
+# check
+http://localhost:5173/my-first-post
+```
