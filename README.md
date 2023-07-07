@@ -1,47 +1,43 @@
-# sveltekit-blog
-Svelekit Blog
+## Post
 
-# Installation
+> [Sveltekit: Setting up a markdown-based blog](https://zhifez-lee.medium.com/sveltekit-setting-up-a-markdown-based-blog-9b3fe266bf76)
 
-```bash
-# Create Github Remote Repository
-> github -u moondevnode -n sveltekit-blog -d "Svelekit Blog"
+> [Github](https://github.com/zhifez/sveltekit-markdown-blog)
 
-# Git Clone(Remote to Local)
-> git clone https://github.com/moondevnode/sveltekit-blog.git
 
-> cd sveltekit-blog
+## Github
 
-# Create Svelte Project
-> pnpm create svelte .
+```sh
+# goto base commit(setup sveltekit)
+git checkout 6fd3f23d2d684ba7127ae822947323b6ddae4fb6
 
-◇  Where should we create your project?
-│    (hit Enter to use current directory)
-│
-◇  Directory not empty. Continue?
-│  Yes
-│
-◇  Which Svelte app template?
-│  Skeleton project
-│
-◇  Add type checking with TypeScript?
-│  Yes, using TypeScript syntax
-│
-◇  Select additional options (use arrow keys/space bar)
-│  Add ESLint for code linting, Add Prettier for code formatting
+# create branch
+git branch marked
+```
 
-# npm install
-> npm i
+## Edit
 
-# check in browser
+> `src/routes/[slug]/+page.ts`
+
+> `src/routes/[slug]/+page.svelte`
+
+```sh
+# watch
 > yarn dev --open
+
+yarn run v1.22.19
+warning ..\package.json: No license field
+$ vite dev --open
 
 Forced re-optimization of dependencies
 
-  VITE v4.4.0  ready in 1578 ms
+  VITE v4.4.0  ready in 1833 ms
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
   ➜  press h to show help
-```
 
+
+# check
+http://localhost:5173/custom-blog-post-slug
+```
