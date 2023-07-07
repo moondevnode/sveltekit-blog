@@ -42,7 +42,6 @@ Forced re-optimization of dependencies
 http://localhost:5173/custom-blog-post-slug
 ```
 
-
 ## Rendering the blog post
 
 > `src/routes/[slug]/+page.ts`
@@ -55,4 +54,38 @@ http://localhost:5173/custom-blog-post-slug
 ```
 # check
 http://localhost:5173/my-first-post
+```
+
+
+## Formatting the post content with marked
+
+```sh
+npm i marked && npm i -D @types/marked
+```
+
+> `src/routes/[slug]/+page.ts`
+
+> `src/routes/[slug]/+page.svelte`
+
+```sh
+# check
+http://localhost:5173/my-first-post
+```
+
+
+## Listing down all posts in main page
+
+> `src/routes/stores/posts.store.ts`
+
+> `src/routes/+error.svelte`
+
+> `src/routes/+page.svelte`
+
+
+```sh
+# check
+http://localhost:5173/
+
+# check
+http://localhost:5173/missing-page
 ```
